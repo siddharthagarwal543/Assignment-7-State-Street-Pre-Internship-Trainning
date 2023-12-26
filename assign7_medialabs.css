@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* h1{
+    font-weight: 100px;
+}
+h2{
+    font-weight: 5000px;
+} */
+/* Set full width and height for .main */
+.main {
+    width: 99vw; /* Viewport width */
+    height: 99vh; /* Viewport height */
+    margin: 0;
+    padding: 0;
+    /* Other styles as needed */
+}
+
+/* Styles for heading */
+.heading {
+    border-bottom: 5px solid black;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    height: 10vh; /* 10% of viewport height */
+    font-weight: bold;
+    /* font-weight: 2000px; */
+}
+
+/* Styles for flex-super */
+.flex-super {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(161, 255, 161);
+    height: 90vh; /* 90% of viewport height */
+}
+
+/* Styles for navbar */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    
+    flex: 1; /* Flexibility of 1, taking up available space */
+    border-right: 5px solid black;
+    background-color: rgb(190, 190, 190);
+    font-weight: bold;
+}
+
+/* Styles for nav-item */
+.nav-item {
+    padding: 2%;
+}
+
+/* Styles for flex-container */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 9; /* Flexibility of 9, taking up available space */
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for sub-heading */
+.sub-heading {
+    flex: 0.5; /* Take up available space */
+    text-align: center;
+}
+
+/* Styles for form */
+.form {
+    display: flex;
+    align-items: center;
+    flex: 2; /* Take up available space */
+    border: 5px dotted rgb(190, 190, 190);
+    margin: 10px;
+    justify-content: center;
+    
+
+    
+}
+
+/* Styles for content */
+.content {
+    flex: 2; /* Take up available space */
+    border: 5px dotted grey;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+/* Styles for footer */
+.footer {
+    background-color: rgb(190, 190, 190);
+    border-top: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    height: 10vh; /* 10% of viewport height */
+    font-weight: bold;
+}
