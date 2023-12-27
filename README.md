@@ -13,4 +13,6 @@ To make sure that the size of the files is small, you are asked to write a form 
 designer enter the desired values for width, height, and number of colors. Your form calculates the
 file size for these values, and displays a message to notify the designer whether those values are
 good for a small file or not.
+<br/><br/>
+Deployed link: https://assignment-7-43vn.onrender.com
 
